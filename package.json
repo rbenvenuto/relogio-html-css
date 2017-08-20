@@ -1,19 +1,22 @@
 {
-  "name": "relogio-html-css-js",
-  "version": "1.0.0",
-  "description": "Um relógio em javascript + html + css",
-  "main": "app.js",
-  "scripts": {
-    "test": "start"
-  },
-  "keywords": [
-    "Relogio",
-    "Estudo",
-    "JavaScript",
-    "DateObject",
-    "CSS",
-    "Front-End"
-  ],
-  "author": "Ranieri Benvenuto",
-  "license": "ISC"
+    "name": "relogio-html-css-js",
+    "version": "1.0.0",
+    "description": "Um relógio em javascript + html + css",
+    "main": "app.js",
+    "scripts": {
+        "start": "browser-sync start --server --serveStatic 'public' --files \"public\""
+    },
+    "keywords": [
+        "Relogio",
+        "Estudo",
+        "JavaScript",
+        "DateObject",
+        "CSS",
+        "Front-End"
+    ],
+    "author": "Ranieri Benvenuto",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.18.13"
+    }
 }
